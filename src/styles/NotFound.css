@@ -1,0 +1,75 @@
+.notFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/12/12/42/wall-2059909_960_720.png"); /* fallback */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url("https://cdn.pixabay.com/photo/2017/02/12/12/42/wall-2059909_960_720.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-family: "Helvetica Neue", sans-serif;
+}
+.notFound h1{
+    margin: 0;
+    padding-top: 15vh;
+    font-size: 9em;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+ 
+}
+.notFound p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 2vh;
+}
+.notFound button{
+    margin-top: 10vh;
+    background: transparent;
+    padding: 0.5em 0.8em;
+    font-size: 1.5em;
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #0073e6,
+                0 0 0.8rem #0073e6,
+                0 0 2.8rem #0073e6,
+                inset 0 0 1.3rem #0073e6;
+}
+.notFound button:hover{
+    background: #0073e6;
+}
+
+.neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0073e6,
+        0 0 80px #0073e6,
+        0 0 90px #0073e6,
+        0 0 100px #0073e6,
+        0 0 150px #0073e6;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+}

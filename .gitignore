@@ -1,0 +1,9 @@
+# track readme.md in the root (i.e. do NOT ignore it)
+!README.md
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# webpack output
+dist/*
+public/
