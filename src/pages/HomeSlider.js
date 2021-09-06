@@ -16,7 +16,7 @@ export const HomeSlider = () => {
         <Carousel>
             <Carousel.Item interval={1400}>
                 <img
-                    className="d-block w-100"
+                    className="d-block homeSliderContainer"
                     src="https://images.pexels.com/photos/2902536/pexels-photo-2902536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                     alt="First slide"
                 />
@@ -27,7 +27,7 @@ export const HomeSlider = () => {
             </Carousel.Item>
             <Carousel.Item interval={1400}>
                 <img
-                    className="d-block w-100"
+                    className="d-block homeSliderContainer"
                     src="https://images.pexels.com/photos/3837494/pexels-photo-3837494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                     alt="Second slide"
                 />
@@ -38,7 +38,7 @@ export const HomeSlider = () => {
             </Carousel.Item>
             <Carousel.Item interval={1400}>
                 <img
-                    className="d-block w-100"
+                    className="d-block homeSliderContainer"
                     src="https://images.pexels.com/photos/3690005/pexels-photo-3690005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                     alt="Third slide"
                 />
@@ -49,7 +49,7 @@ export const HomeSlider = () => {
             </Carousel.Item>
             <Carousel.Item interval={1400}>
                 <img
-                    className="d-block w-100"
+                    className="d-block homeSliderContainer"
                     src="https://images.pexels.com/photos/2902541/pexels-photo-2902541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                     alt="Fourth slide"
                 />
@@ -60,8 +60,8 @@ export const HomeSlider = () => {
             </Carousel.Item>
             <Carousel.Item interval={1400}>
                 <img
-                    className="d-block w-100"
-                    src="https://images.pexels.com/photos/2910457/pexels-photo-2910457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                    className="d-block homeSliderContainer"
+                    src="https://images.pexels.com/photos/8294620/pexels-photo-8294620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                     alt="Fifth slide"
                 />
                 <Carousel.Caption>
