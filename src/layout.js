@@ -6,13 +6,13 @@ import { Home } from "./pages/Home";
 import { SignUp } from "./pages/SignUp";
 import { LogIn } from "./pages/LogIn";
 import { NotFound } from "./pages/NotFound";
-
+import { Navbar } from "./pages/Navbar"
 
 const Layout = () => {
 
     return (
         <div>
-            <p>NAVBAR</p>
+            <Navbar />
             <BrowserRouter>
                 <ScrollToTop>
                     <Switch>

@@ -1,8 +1,13 @@
 import React from "react";
+import { HomeSlider } from "./HomeSlider.js";
+import "../styles/Home.css";
 
 export const Home = () => {
 
     return (
-        <h1>HOME</h1>
+        <div className="home">
+            <HomeSlider />
+        </div>
+        
     )
 };
