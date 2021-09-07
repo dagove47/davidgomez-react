@@ -89,7 +89,7 @@ export const HomeSlider = () => {
                     alt="Seventh slide"
                 />
                 <Carousel.Caption>
-                    <h3>Seventh slide label</h3>
+                    <h3>Seventh slide label test</h3>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
