@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./components/scrollToTop";
-
 import { Home } from "./pages/Home";
-import { SignUp } from "./pages/SignUp";
 import { LogIn } from "./pages/LogIn";
+import { Navbar } from "./pages/Navbar";
 import { NotFound } from "./pages/NotFound";
-import { Navbar } from "./pages/Navbar"
+import { SignUp } from "./pages/SignUp";
+
 
 const Layout = () => {
 

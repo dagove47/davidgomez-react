@@ -1,12 +1,12 @@
 import React from "react";
-import { HomeSlider } from "./HomeSlider.js";
 import "../styles/Home.css";
+import { HomeVideo } from "./HomeVideo.js";
 
 export const Home = () => {
 
     return (
         <div className="home">
-            <HomeSlider />
+            <HomeVideo />
         </div>
         
     )
