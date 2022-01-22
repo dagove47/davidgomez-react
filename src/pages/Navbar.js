@@ -4,7 +4,7 @@ export const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="dfg">Navbar</a>
+                <a class="navbar-brand" href="/Menu">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -21,11 +21,8 @@ export const Navbar = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="df">About Me</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="df">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="fdg" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <li class="nav-item neonTextFlicker">
+                                <a class="nav-link" href="df"><i class="fas fa-bars"></i></a>
                             </li>
                         </ul>
                     </div>
