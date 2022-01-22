@@ -7,5 +7,42 @@
     width: 100vw;
     object-fit: fill;
     /* object-fit: cover; */
-    opacity: 0.7;
+    opacity: 0.3;
+}
+.title-home{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    /* padding: 1.5em 2.5em;
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+    border: 0.2rem solid rgb(255, 151, 213);
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem rgb(255, 151, 213),
+                0 0 .2rem rgb(255, 151, 213),
+                0 0 2rem #f09,
+                0 0 0.8rem #f09,
+                0 0 2.8rem #f09,
+                inset 0 0 1.3rem #f09; */
+}
+.title-home h1{
+    font-size: 5rem;
+    font-weight:500;
+    color: #fff;
+    line-height: 7rem;
+}
+@media screen and (max-width: 380px){
+    .title-home h1{
+        padding: 1rem;
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 600px){
+    
+}
+@media screen and (max-width: 900px){
+    
+}
+@media screen and (max-width: 1100px){
+    
 }

@@ -11,7 +11,6 @@
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
-    font-family: "Helvetica Neue", sans-serif;
 }
 .notFound h1{
     margin: 0;
@@ -45,31 +44,4 @@
 }
 .notFound button:hover{
     background: #0073e6;
-}
-
-.neonText {
-    animation: flicker 1.5s infinite alternate;
-    color: #fff;
-}
-
-/* Flickering animation */
-@keyframes flicker {
-      
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #0073e6,
-        0 0 80px #0073e6,
-        0 0 90px #0073e6,
-        0 0 100px #0073e6,
-        0 0 150px #0073e6;
-    
-    }
-    
-    20%, 24%, 55% {        
-        text-shadow: none;
-    }    
 }

@@ -10,6 +10,11 @@ export const HomeVideo = () => {
                 <source src={video1} type="video/mp4" />
                 Your browser does not support HTML5 video.
             </video>
+            <div className="title-home neonTextFlicker">
+                <h1>Hi,
+                <br/>I'm David,
+                <br/>web developer</h1>
+            </div>
         </div>
     )
 }
