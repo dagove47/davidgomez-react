@@ -16,7 +16,13 @@ export const Navbar = () => {
                                 <a class="nav-link active" aria-current="page" href="dfg">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="df">Link</a>
+                                <a class="nav-link" href="df">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="df">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="df">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link disabled" href="fdg" tabindex="-1" aria-disabled="true">Disabled</a>
