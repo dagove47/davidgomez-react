@@ -6,6 +6,7 @@ import { LogIn } from "./pages/LogIn";
 import { Navbar } from "./pages/Navbar";
 import { NotFound } from "./pages/NotFound";
 import { SignUp } from "./pages/SignUp";
+import { Menu } from "./pages/Menu";
 
 
 const Layout = () => {
@@ -18,6 +19,7 @@ const Layout = () => {
                     <Switch>
                         <Route exact path="/">
                             <Home />
+                            <Menu />
                         </Route>
                         <Route exact path="/signup">
                             <SignUp />
