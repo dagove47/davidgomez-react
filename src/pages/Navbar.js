@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Navbar.css";
 
 export const Navbar = () => {
     return (
@@ -19,7 +20,7 @@ export const Navbar = () => {
                                 <a class="nav-link" href="df">Work</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="df">About Me</a>
+                                <a class="nav-link" href="df">About</a>
                             </li>
                             <li class="nav-item neonTextFlicker">
                                 <a class="nav-link" href="df"><i class="fas fa-bars"></i></a>

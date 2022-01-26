@@ -6,7 +6,7 @@
     width: 100%;
     background: #000;
     background-image: url("../assets/wall-2059909.png"); /* fallback */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url("../assets/wall-2059909.png");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url("../assets/wall-2059909.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
