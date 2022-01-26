@@ -18,8 +18,8 @@ const Layout = () => {
                 <ScrollToTop>
                     <Switch>
                         <Route exact path="/">
-                            <Home />
                             <Menu />
+                            <Home />
                         </Route>
                         <Route exact path="/signup">
                             <SignUp />
